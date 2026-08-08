@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="0.5" stop-color="#1e40af"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity="0.15" stroke="#ffffff" stroke-width="1">
+    <path d="M0 470 Q300 420 600 470 T1200 470" fill="none"/>
+    <path d="M0 510 Q300 460 600 510 T1200 510" fill="none"/>
+  </g>
+  <g transform="translate(80,80)" fill="#ffffff">
+    <rect width="64" height="64" rx="18" fill="#ffffff"/>
+    <path d="M28 16h8v12h12v8H36v12h-8V36H16v-8h12z" fill="#1d4ed8"/>
+    <text x="86" y="44" font-family="Arial, sans-serif" font-size="34" font-weight="700">Siddhartha Hospitals</text>
+  </g>
+  <text x="80" y="320" font-family="Arial, sans-serif" font-size="78" font-weight="800" fill="#ffffff">Your Health,</text>
+  <text x="80" y="400" font-family="Arial, sans-serif" font-size="78" font-weight="800" fill="#ffffff">Our Highest Priority</text>
+  <text x="80" y="470" font-family="Arial, sans-serif" font-size="30" fill="#ffffff" opacity="0.92">Trusted multi-speciality healthcare in Rajamahendravaram.</text>
+  <text x="80" y="560" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" opacity="0.8">24/7 Emergency • 25+ Specialities • 50+ Expert Doctors</text>
+</svg>
